@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pragatirana.myapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Second" />
+        <activity android:name=".Third" />
+        <activity android:name=".Cal" />
+        <activity android:name=".Camera" />
+        <activity android:name=".Special" />
+        <activity android:name=".Mediaplayer" />
+        <activity android:name=".Quiz" />
+        <activity android:name=".Magical" />
+        <activity android:name=".Secondq" />
+        <activity android:name=".Thirdq" />
+        <activity android:name=".Fourthq" />
+        <activity android:name=".Fifthq" />
+        <activity android:name=".Last"></activity>
+    </application>
+
+</manifest>
